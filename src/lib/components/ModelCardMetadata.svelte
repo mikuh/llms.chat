@@ -19,7 +19,7 @@
 		? 'text-gray-600 dark:bg-gray-800 dark:text-gray-300'
 		: 'text-gray-800 dark:bg-gray-100 dark:text-gray-600'}"
 >
-	<a
+	<!-- <a
 		href={model.modelUrl || "https://huggingface.co/" + model.name}
 		target="_blank"
 		rel="noreferrer"
@@ -27,7 +27,7 @@
 		><CarbonArrowUpRight class="mr-1.5 shrink-0 text-xs text-gray-400" />
 		Model
 		<div class="max-sm:hidden">&nbsp;page</div></a
-	>
+	> -->
 	{#if model.datasetName || model.datasetUrl}
 		<a
 			href={model.datasetUrl || "https://huggingface.co/datasets/" + model.datasetName}
